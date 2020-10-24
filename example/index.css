@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.transition {
+    height: 100%;
+    width: 100%;
+    border-bottom: solid 5px black;
+}
+
+.transition h1 {
+    margin-bottom: 100px;
+}
+
+.button {
+    height: 100px;
+    width: 50px;
+    margin-left: 100px;
+    padding: 20px 50px;
+    background-color: rgb(255, 144, 53);
+    color: white;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    font-size: large;
+    /* transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out; */
+}
+
+/* .button:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border-color:blue;
+    border-width: 5px;
+} */
+
+.animation {
+    height: 100%;
+    width: 100%;
+}
+
+.animation-box {
+    height: 200px;
+    width: 200px;
+    margin: 200px auto 0 auto;
+    background-color: red;
+    /* animation-name: animated-box;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s; */
+}
+
+/* @keyframes animated-box {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
